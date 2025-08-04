@@ -1,0 +1,55 @@
+in HTML: <br> means next line.
+
+cd : change directry(folder)
+cd .. : for exits
+
+git config --global user.name "Tamim"
+git config --global user.name "Tamim"
+git config --list
+
+#Clone & Status: 
+local : laptop
+remote : github
+
+git clone paste # file github to my vsc
+
+git status # display the state of the code
+
+
+1.untracked : new files that git doesn't yet track
+2.modified : changed
+3.staged : file is ready to be committed
+4.unmodified : unchanged
+
+
+changed file-> add -> stanged -> commit:
+add: adds new or changed files in your working directory to the git staging area.
+# git add (file name) / git add . (for all file)
+
+commit : it is the reord of change
+#git commit -m"some message"
+
+finally : to show in github enter: git push origin main
+
+
+
+#new
+init - used to create a new git repo
+#mkdir name
+
+
+
+#local file tranper in github:
+create a new repo
+
+enter in vsc terminal:git init
+git remote add origin paste
+check : git remote -v 
+git brance (to check branch)
+git brach -M name ( to rename branch)
+git push -u origin main ( -u to short the name for save time)
+
+
+
+Work Flow : local git ->
+Github setup -> git init -> git add -> git commit -m" " -> git push
